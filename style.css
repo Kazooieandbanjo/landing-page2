@@ -34,10 +34,35 @@ footer {
     color: #f9faf8;
 }
 
-
-.content {
+section {
     display: flex;
+    flex-direction: column;
     flex: 1;
+    padding: 2em;
+}
+
+footer {
+    margin-top: auto;
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Made the footer go to the bottom and added to make the main content fit in the same container as the  header  */
+
+.btn {
+    display: inline-block;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: .50em 2em;
+    border-radius: 7px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75;
 }
 
 .d-flex {
@@ -46,12 +71,14 @@ footer {
 
 .container {
     width: 80%;
+    max-width: 860px;
     margin: 0 auto;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
+    padding: 1em;
 }
 
 
@@ -67,5 +94,19 @@ footer {
 /* Hero section below */
 
 .hero {
-    padding: 5em 0;
+    padding: 3.5em 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero--text {
+    width: 50%;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    opacity: .75;
 }
