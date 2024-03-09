@@ -87,7 +87,11 @@ footer {
     padding: 1em;
 }
 
-
+.header-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /*Reusable section above */
 
@@ -109,8 +113,17 @@ footer {
     font-weight: bolder;
 }
 
+.hero--text p {
+    margin-top: 0;
+}
+
+.hero--text h2 {
+    margin-bottom: 0;
+}
+
 .hero--text {
-    width: 50%;
+    margin: 0;
+    width: 30%;
 }
 
 .nav__link:hover,
