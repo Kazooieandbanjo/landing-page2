@@ -15,4 +15,4 @@ Today date is 3/8/24
 
 Goal today: Finish quote section.
 
-Goal was met today, hopefully for tomorrow I can finish the landing page.
+Goal was met today, hopefully for tomorrow I can finish the landing page. I finished the call to action section, I finished the whole page to the best of my ability currently.
