@@ -43,7 +43,7 @@ section {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 2em;
+    padding: 0;
 }
 
 footer {
@@ -85,6 +85,7 @@ footer {
     justify-content: space-between;
     padding: 1em;
 }
+
 
 
 /*Reusable section above */
@@ -150,6 +151,33 @@ footer {
 .information-section {
     text-align: center;
     margin-bottom: 25px;
+    padding: 4em;
 }
 
 /* Quote section below */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 4em;
+}
+
+.col {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.main-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.letter-spacing {
+    letter-spacing: 3px;
+
+}
+
+.information-section .main-quote {
+    text-align: left;
+}
